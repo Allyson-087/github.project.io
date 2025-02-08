@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    background-color: #464646;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.texto-informa {
+    font-size: 20px;
+}
+
+
+.linguagens {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid white;
+}
+
+.project-title {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.ilustra-video {
+    width: 400px;
+}
+
+.sobre{
+    display: flex;
+    gap: 30px;
+}
+
+#sobre{
+    width: 500px;
+}
+
+.projeto {
+    padding: 20px;
+    margin: 20px;
+    
+}
+.borda-branca{
+    border-bottom: 1.5px solid white;
+    margin: 60px;
+}
+
+.sobre-projeto{
+    padding-bottom: 10px;
+}
+
+.sobre-plotly{
+    padding-bottom: 10px;
+}
+
+#projeto-plotly {
+    padding-bottom: 10px;
+    display: flex;
+    width: 400px;
+}
+
+.projeto-plotly{
+    display: flex;
+    gap: 30px;
+}
+.coluna-foto{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contato {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    line-height: 30px;
+}
