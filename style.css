@@ -91,3 +91,7 @@ header {
     padding-top: 10px;
     line-height: 30px;
 }
+.FotoLinkedIn {
+    display: flex;
+    width: 100px;
+}
