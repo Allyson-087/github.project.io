@@ -81,6 +81,10 @@ header {
     display: flex;
     flex-direction: column;
 }
+.projeto-FruderMen{
+    display: flex;
+    gap: 30px;
+}
 #projeto-FruderMen {
     padding-bottom: 10px;
     display: flex;
