@@ -81,8 +81,15 @@ header {
     display: flex;
     flex-direction: column;
 }
-
-
+#projeto-FruderMen {
+    padding-bottom: 10px;
+    display: flex;
+    width: 400px;
+}
+.coluna-foto-FruderMen{
+    display: flex;
+    flex-direction: column;
+}
 .contato {
     background-color: #000;
     display: flex;
