@@ -158,6 +158,9 @@ p{
     .Titulo-Habi{
         font-size: 25px;
     }
+    .Linguagens-Habilidades{
+        gap: 20px;
+    }
 }
 @media(min-width : 701px){
     .Biografia{
