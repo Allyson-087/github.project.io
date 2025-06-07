@@ -155,6 +155,9 @@ p{
     .Biografia{
         width: 400px;
     }
+    .Titulo-Habi{
+        font-size: 25px;
+    }
 }
 @media(min-width : 701px){
     .Biografia{
