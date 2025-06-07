@@ -5,7 +5,7 @@
 
 body{
     background: linear-gradient(to bottom, #1b2a41, #294369);
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
