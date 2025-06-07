@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(to bottom, #1b2a41, #294369);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+/*----------- Cabeçalho Config Style ------------*/
+.Cabecalho{
+    background-color: #162130;
+    height: 65px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.Titulo-Cabecalho{
+    padding-left: 10px;
+    font-family: helvetica;
+    margin-top: 15px;
+}
+.Menu{
+    width: 70px;
+    height: 65px;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    flex-direction: column;
+    z-index: 20;
+}
+.Point{
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-top: 8px;
+    z-index: 20;
+}
+/*-----------------------------------------------*/
+
+/*----------- Menu Config Style ------------*/
+.Menu-Lateral{
+    background-color: #162130;
+    position: fixed;
+    right: -70px;
+    top: 0px;
+    height: 100%;
+    width: 70px;
+    z-index: 10;
+    transition: right 0.5s ease;
+}
+.label{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    height: 65px;
+    z-index: 21;
+}
+#Menu{
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+#Menu:checked ~ .Point{
+    animation: Menu-Botao 0.3s forwards;
+}
+#Menu:checked ~ .Menu-Lateral{
+    right: 0px;
+}
+/*----------- Animação Menu-----------*/
+@keyframes Menu-Botao {
+    0% {width: 10px;
+    background-color: black;}
+    20% {width: 20px;
+    background-color: rgb(18, 28, 40);}
+    40% {width: 30px;
+    background-color: rgb(22, 32, 48)}
+    60% {width: 40px;
+    background-color: rgb(18, 28, 40);}
+    80% {width: 30px;
+    background-color: rgb(14, 24, 36);}
+    100% {width: 10px;
+    background-color: black;}
+}
+
+/*-----------------------------------------------*/
+/*-----------------Fotos/Videos Tamanhos----------------*/
+@media(max-width:700px){
+    .Video{
+        width: 280px;
+        padding-left: 20px;
+    }
+}
+@media(min-width:701px){
+    .Video{
+        width: 400px;
+        padding-left: 20px;
+    }
+}
+@media(min-width:1000px){
+    .Video{
+        width: 800px;
+        padding-left: 20px;
+    }
+}
+@media(max-width:700px){
+    .Coluna-Foto{
+        width: 280px;
+        padding-left: 20px;
+    }
+}
+@media(min-width:701px){
+    .Coluna-Foto{
+        width: 400px;
+        padding-left: 20px;
+    }
+}
+@media(min-width:1000px){
+    .Coluna-Foto{
+        width: 800px;
+        padding-left: 20px;
+    }
+}
+@media(max-width:700px){
+    .Coluna-Foto,.Imagem-Mais{
+        width: 280px;
+    }
+}
+@media(min-width:701px){
+    .Coluna-Foto,.Imagem-Mais{
+        width: 400px;
+    }
+}
+@media(min-width:1000px){
+    .Coluna-Foto,.Imagem-Mais{
+        width: 800px;
+    }
+}
+/*-----------------------------------------------*/
+/*----------------Conteudo Escrito---------------*/
+.Titulo-Projeto{
+    padding-left: 20px;
+}
+.Ilustracao-Explicacao{
+    display: flex;
+    gap: 20px;
+}
+@media(max-width:700px){
+    .Sobre-Projeto{
+    width: 200px;
+}
+}
+@media(min-width:701px){
+    .Sobre-Projeto{
+    width: 300px;
+}
+}
+@media(min-width:1000px){
+    .Sobre-Projeto{
+    width: 400px;
+}
+}
+/*-----------------------------------------------*/
+/*----------------Borda Branca---------------*/
+.borda-branca{
+    border-bottom: 1.5px solid white;
+    margin: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+/*-----------------------------------------------*/
+/*----------- Menu Config------------------------*/
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 8px;
+    align-items: center;
+    gap: 30px;
+}
+.Link-Menu{
+    color: black;
+}
+.Menu-Lateral{
+    display: flex;
+    align-items: center;
+}
+.Imagem-Contato{
+    width: 50px;
+}
+/*-----------------------------------------------*/
