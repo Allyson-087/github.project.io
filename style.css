@@ -146,6 +146,7 @@ body{
     text-align: center;
     width: 600px;
     font-size: 18px;
+    martgin-bottom: 20px;
 }
 p{
     border-bottom: 1.5px solid #ffffff;
