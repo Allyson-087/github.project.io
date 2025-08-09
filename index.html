@@ -6,73 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Global.css">
     <link rel="shortcut icon" href="media/1738797324159.png" type="image/x-icon">
 </head>
 
 <body>
-
-    <div class="Cabecalho">
-        <h1 class="Titulo-Cabecalho">Portfólio</h1>
-        <div class="Menu">
-            <input type="checkbox" id="Menu">
-            <label class="label" for="Menu"></label>
-            <div class="Point"></div>
-            <div class="Point"></div>
-            <div class="Point"></div>
-            <div class="Menu-Lateral">
-                <ul class="Links">
-                    <li><a class="Link-Menu" href="Projetos.html">Projetos</a></li>
-                    <li><a class="Link-Menu" href="Contato.html">Contato</a></li>
-                    <li><a href="https://www.linkedin.com/in/allyson-gomes-283605347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img class="Imagem-Contato" src="media/LikedinIcon2.png" alt="LikedinIcon2"></a></li>
-                    <li><a href="https://github.com/Allyson-087" target="_blank"><img class="Imagem-Contato" src="media/GitHubIcon.png" alt=""></a></li>
-                    <li><a href="http://www.youtube.com/@allysongomes8219" target="_blank"><img class="Imagem-Contato" src="media/YoutubeIcon.png" alt=""></a></li>
+    <div class="Cabecalho-container">
+        <div class="Topo-up-cabealho">
+            <img class="Logo-AR" src="media/logo-F-B.png" alt="Logo-AR">
+            <div class="Menu-container">
+                <ul class="Menu-list-contato">
+                    <li class="Menu-item"><a href="https://wa.me/5584987649361" target="_blank"><p class="a">Contratar</p></a></li>
+                    <li class="Menu-item Menu-item2">
+                        <p class="a">Contato</p>
+                        <div class="drop-down-links Menu-item2">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/allyson-gomes-283605347/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://www.youtube.com/@allysongomes8219" target="_blank">Youtube</a></li>
+                                <li><a href="https://github.com/Allyson-087" target="_blank">Github</a></li>
+                                <li><a href="https://www.instagram.com/all_ar_dev/" target="_blank">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
+                
+            </div>
+        </div>
+        <div class="Profissional">
+            <p style="color: red; font-weight: bold;">Hello im Allyson</p>
+            <h1>Full Stack Developer</h1>
+            <p class="Bio-Inform">My name is Allyson, and I'm a developer focused on games, automation, websites, apis, softwares and other systems. I'm always creating new technology projects.</p>
+            <div class="Sub-infomration-container">
+                <h2 class="Value">3</h2><p class="for-h2">YEARS<br>EXPIRIENCE</p>
+                <h2 class="Value">3</h2><p class="for-h2">PROJECTS COMPLETED</p>
             </div>
         </div>
     </div>
-    
-    <div class="Profissional">
-        <h1>Allyson Rafael - Desenvolvedor Full Stack</h1>
+    <h1 class="Title-t">My Skills</h1>
+    <div class="Info-container">
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/css_icon_153522.png" alt="">
+            <h2 class="Title-card">CSS3</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/html_icon.png" alt="">
+            <h2 class="Title-card">HTML5</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/Python_icon.png" alt="">
+            <h2 class="Title-card">Python</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/js_icon.png" alt="">
+            <h2 class="Title-card">JavaScript</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/c_sharp_icon.png" alt="">
+            <h2 class="Title-card">C#</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/database_icon.png" alt="">
+            <h2 class="Title-card">Data-Base</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/unity_logo_icon.png" alt="">
+            <h2 class="Title-card">Unity</h2>
+        </div>
+        <div class="Info-card">
+            <img class="Img-Card-Inform" src="media/c_plain_logo_icon.png" alt="">
+            <h2 class="Title-card">C</h2>
+        </div>
     </div>
 
-    <div class="Linguagens-Habilidades">
-        <ul class="Habilidades">
-            <h2 class="Titulo-Habi">Linguagens</h2>
-            <h2></h2>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>PYTHON</li>
-            <li>C#</li>
-        </ul>
-        <ul class="Habilidades">
-            <h2 class="Titulo-Habi"> Habilidades</h2>
-            <li>Pandas</li>
-            <li>Pyautogui</li>
-            <li>Plotly</li>
-            <li>Sklearn</li>
-            <li>Unity</li>
-            <li>Flask</li>
-        </ul>
+    <div class="projects-wrapper">
+        <div class="container-spend-btn">
+            <button class="spend-btn-d" onclick="scrollProjects('right')"><img class="spend-btn-img" src="media/seta-p-d.png" alt=""></button>
+            <button class="spend-btn-l" onclick="scrollProjects('left')"><img class="spend-btn-img" src="media/seta-p-e.png" alt=""></button>
+        </div>
+        <h1 class="Title-t">My Projects</h1>
+        <div class="scroll-container" id="project-container">
+            <div class="project-container-card">
+                <video class="Video_Project" src="media/20-24-41 - Trim.mp4" controls></video>
+                <p class="Sobre-Projeto">Programa que automatiza uma tarefa de cadastro de produtos.</p>
+                <button onclick="MoreInforProject(this)" class="More-infor-project" value="Project-Auto">More</button>
+            </div>
+
+            <div class="project-container-card">
+                <img class="Imagem_Project" src="media/analise 1.png" alt="">
+                <p class="Sobre-Projeto">Análise de Dados com plotly.</p>
+                <button onclick="MoreInforProject(this)" class="More-infor-project" value="Project-Dados">More</button>
+            </div>
+
+            <div class="project-container-card">
+                <img class="Imagem_Project" src="media/ImagemFinalGame5.png" alt="">
+                <p class="Sobre-Projeto">Jogo FruderMen.</p>
+                <button onclick="MoreInforProject(this)" class="More-infor-project" value="Project-FruderMen">More</button>
+            </div>
+
+            
+        </div>
+        <div id="More-infor-project-container" class="More-infor-project-container">
+            <img class="Imagem_Project_More" src="" alt="">
+            <video class="Video_Project_More" src="" controls></video>
+            <p class="Descricao-project"></p>
+            <a target="_blank" class="link-name" href=""></a>
+            <button onclick="CloseMoreInforProject(this)" class="Close-btn">Close</button>
+        </div>
     </div>
-    <div class="Biografia">
-        <h1>&#129504Biografia</h1> <br>
-        <p>Me chamo Allyson Rafael, sou Desenvolvedor Full-Stack júnior apaixonado por tecnologia, automação e visualização de dados. Tenho experiência em análise de dados, desenvolvimento de jogos, inteligência artificial, automação de tarefas etc. Meu objetivo é atuar em projetos maiores. Estou constantemente estudando e melhorando a cada dia, me tornado cada vez mais preparado para lidar com novos desafios. <br>
-        Também desenvolvi um jogo que esta disponível na Play Store o <a href="https://play.google.com/store/apps/details?id=com.ARDevelopment.FruderMen.Game&pcampaignid=web_share" target="_blank">link para dowload</a>.</p> <br>
-        <h1>&#128187;Experiência e Projetos</h1> <br>
-        <ul>
-            <li>FruderMen (jogo publicado)</li>
-            <li>Criação de portfólio pessoal</li>
-            <li>Criação de inteligência artificial</li>
-            <li>Análise de dados</li>
-        </ul> <br>
-        <p>Desenvolvi o jogo "FruderMen" publicado na Google Play Store, fiz uma inteligência artificial capaz de fazer previsões com base em dados coletados, fiz deshboards com Plotly e Pandas.</p> <br>
-        <h1>&#129513Outros</h1> <br>
-        <ul>
-            <li>Idiomas que falo (inglês básio/intermediário)</li>
-            <li>Busco oportunidades como Desenvolvedor</li>
-            <li>Soft Skills: Comunicação, Trabalho em equipe, Resolução de problemas, Pensamento crítico, Adaptabilidade</li>
-        </ul>
-    </div>
+    
+    <script src="index.js"></script>
 </body>
 
 </html>
