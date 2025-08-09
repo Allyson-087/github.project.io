@@ -1,0 +1,32 @@
+.Logo-AR{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.Imagem_Project_More, .Video_Project_More{
+    width: 450px;
+    height: 280px;
+}
+
+.Close-btn{
+    width: 60px;
+    height: 60px;
+    background-color: #002e63;
+    border-radius: 50%;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Close-btn:hover{
+    background-color: #004a8c;
+    transition: 0.3s;
+    rotate: 360deg;
+}
